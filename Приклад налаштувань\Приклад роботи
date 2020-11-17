@@ -1,0 +1,18 @@
+Приклад налаштувань
+git config --global --list
+git config --global user.name "yourname"
+git config --global user.email "yourname@gmail.com"
+git config --global core.autocrlf true
+git config --global core.safecrlf true
+Приклад роботи
+git clone https://yourname@github.com/yourname/lazarus_mysql_simply-01
+cd lazarus_mysql_simply-01
+cp c:/3kurs/unit1.pas ./
+ls -la
+git status
+git add unit1.pas
+git commit -m "Hello world 31.12.2019. Add unit1.pas"
+git remote add origin
+https://yourname@github.com/yourname/lazarus_mysql_simply-01
+git remote -v
+git push -u origin master
